@@ -49,19 +49,19 @@ cmake_ninja_workdir = C$:/Users/Leone/Escritorio/FCFM/9no_Semestre/GPU/GPU_t1/cm
 
 build cmake_object_order_depends_target_GPU_t1: phony || CMakeFiles/GPU_t1.dir
 
-build CMakeFiles/GPU_t1.dir/main.cpp.obj: CXX_COMPILER__GPU_t1_unscanned_Debug C$:/Users/Leone/Escritorio/FCFM/9no_Semestre/GPU/GPU_t1/main.cpp || cmake_object_order_depends_target_GPU_t1
-  DEP_FILE = CMakeFiles\GPU_t1.dir\main.cpp.obj.d
+build CMakeFiles/GPU_t1.dir/src/main.cpp.obj: CXX_COMPILER__GPU_t1_unscanned_Debug C$:/Users/Leone/Escritorio/FCFM/9no_Semestre/GPU/GPU_t1/src/main.cpp || cmake_object_order_depends_target_GPU_t1
+  DEP_FILE = CMakeFiles\GPU_t1.dir\src\main.cpp.obj.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
   INCLUDES = -IC:/Users/Leone/Escritorio/FCFM/9no_Semestre/GPU/GPU_t1/.
   OBJECT_DIR = CMakeFiles\GPU_t1.dir
-  OBJECT_FILE_DIR = CMakeFiles\GPU_t1.dir
+  OBJECT_FILE_DIR = CMakeFiles\GPU_t1.dir\src
 
-build CMakeFiles/GPU_t1.dir/Matrix.cpp.obj: CXX_COMPILER__GPU_t1_unscanned_Debug C$:/Users/Leone/Escritorio/FCFM/9no_Semestre/GPU/GPU_t1/Matrix.cpp || cmake_object_order_depends_target_GPU_t1
-  DEP_FILE = CMakeFiles\GPU_t1.dir\Matrix.cpp.obj.d
+build CMakeFiles/GPU_t1.dir/src/Matrix.cpp.obj: CXX_COMPILER__GPU_t1_unscanned_Debug C$:/Users/Leone/Escritorio/FCFM/9no_Semestre/GPU/GPU_t1/src/Matrix.cpp || cmake_object_order_depends_target_GPU_t1
+  DEP_FILE = CMakeFiles\GPU_t1.dir\src\Matrix.cpp.obj.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
   INCLUDES = -IC:/Users/Leone/Escritorio/FCFM/9no_Semestre/GPU/GPU_t1/.
   OBJECT_DIR = CMakeFiles\GPU_t1.dir
-  OBJECT_FILE_DIR = CMakeFiles\GPU_t1.dir
+  OBJECT_FILE_DIR = CMakeFiles\GPU_t1.dir\src
 
 
 # =============================================================================
@@ -71,7 +71,7 @@ build CMakeFiles/GPU_t1.dir/Matrix.cpp.obj: CXX_COMPILER__GPU_t1_unscanned_Debug
 #############################################
 # Link the executable GPU_t1.exe
 
-build GPU_t1.exe: CXX_EXECUTABLE_LINKER__GPU_t1_Debug CMakeFiles/GPU_t1.dir/main.cpp.obj CMakeFiles/GPU_t1.dir/Matrix.cpp.obj
+build GPU_t1.exe: CXX_EXECUTABLE_LINKER__GPU_t1_Debug CMakeFiles/GPU_t1.dir/src/main.cpp.obj CMakeFiles/GPU_t1.dir/src/Matrix.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\GPU_t1.dir

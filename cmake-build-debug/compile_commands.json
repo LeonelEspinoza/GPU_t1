@@ -1,14 +1,14 @@
 [
 {
   "directory": "C:/Users/Leone/Escritorio/FCFM/9no_Semestre/GPU/GPU_t1/cmake-build-debug",
-  "command": "\"C:\\PROGRA~1\\JetBrains\\CLion 2024.1\\bin\\mingw\\bin\\g++.exe\" -IC:/Users/Leone/Escritorio/FCFM/9no_Semestre/GPU/GPU_t1/. -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\GPU_t1.dir\\main.cpp.obj -c C:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\main.cpp",
-  "file": "C:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\main.cpp",
-  "output": "CMakeFiles\\GPU_t1.dir\\main.cpp.obj"
+  "command": "\"C:\\PROGRA~1\\JetBrains\\CLion 2024.1\\bin\\mingw\\bin\\g++.exe\" -IC:/Users/Leone/Escritorio/FCFM/9no_Semestre/GPU/GPU_t1/. -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\GPU_t1.dir\\src\\main.cpp.obj -c C:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\src\\main.cpp",
+  "file": "C:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\src\\main.cpp",
+  "output": "CMakeFiles\\GPU_t1.dir\\src\\main.cpp.obj"
 },
 {
   "directory": "C:/Users/Leone/Escritorio/FCFM/9no_Semestre/GPU/GPU_t1/cmake-build-debug",
-  "command": "\"C:\\PROGRA~1\\JetBrains\\CLion 2024.1\\bin\\mingw\\bin\\g++.exe\" -IC:/Users/Leone/Escritorio/FCFM/9no_Semestre/GPU/GPU_t1/. -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\GPU_t1.dir\\Matrix.cpp.obj -c C:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\Matrix.cpp",
-  "file": "C:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\Matrix.cpp",
-  "output": "CMakeFiles\\GPU_t1.dir\\Matrix.cpp.obj"
+  "command": "\"C:\\PROGRA~1\\JetBrains\\CLion 2024.1\\bin\\mingw\\bin\\g++.exe\" -IC:/Users/Leone/Escritorio/FCFM/9no_Semestre/GPU/GPU_t1/. -g -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles\\GPU_t1.dir\\src\\Matrix.cpp.obj -c C:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\src\\Matrix.cpp",
+  "file": "C:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\src\\Matrix.cpp",
+  "output": "CMakeFiles\\GPU_t1.dir\\src\\Matrix.cpp.obj"
 }
 ]
