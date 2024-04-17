@@ -1,0 +1,3 @@
+C:/Users/Leone/Escritorio/FCFM/9no_Semestre/GPU/GPU_t1/cmake-build-debug/CMakeFiles/GPU_t1.dir
+C:/Users/Leone/Escritorio/FCFM/9no_Semestre/GPU/GPU_t1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Leone/Escritorio/FCFM/9no_Semestre/GPU/GPU_t1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

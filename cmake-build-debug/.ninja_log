@@ -1,0 +1,4 @@
+# ninja log v5
+3	1198	7350830037883799	CMakeFiles/GPU_t1.dir/main.cpp.obj	ba5628ce413e3c7b
+10	1375	7350830039617824	CMakeFiles/GPU_t1.dir/Matrix.cpp.obj	463fe4969b284be
+1375	1626	7350830042052571	GPU_t1.exe	4a47d3e62cb01563
