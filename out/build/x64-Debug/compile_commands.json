@@ -1,0 +1,62 @@
+[
+{
+  "directory": "C:/Users/Leone/Escritorio/FCFM/9no_Semestre/GPU/GPU_t1/out/build/x64-Debug",
+  "command": "\"C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe\"  /nologo /TP -IC:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\src /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest -MDd -Zi @CMakeFiles\\GPU_t1.dir\\src\\Matrix.cpp.obj.modmap /FoCMakeFiles\\GPU_t1.dir\\src\\Matrix.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\src\\Matrix.cpp",
+  "file": "C:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\src\\Matrix.cpp",
+  "output": "CMakeFiles\\GPU_t1.dir\\src\\Matrix.cpp.obj"
+},
+{
+  "directory": "C:/Users/Leone/Escritorio/FCFM/9no_Semestre/GPU/GPU_t1/out/build/x64-Debug",
+  "command": "\"C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe\"  /nologo /TP /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest -MDd -Zi @CMakeFiles\\MAIN.dir\\src\\main.cpp.obj.modmap /FoCMakeFiles\\MAIN.dir\\src\\main.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\src\\main.cpp",
+  "file": "C:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\src\\main.cpp",
+  "output": "CMakeFiles\\MAIN.dir\\src\\main.cpp.obj"
+},
+{
+  "directory": "C:/Users/Leone/Escritorio/FCFM/9no_Semestre/GPU/GPU_t1/out/build/x64-Debug",
+  "command": "\"C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe\"  /nologo /TP -IC:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\extern\\googletest\\googlemock\\include -IC:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\extern\\googletest\\googlemock -IC:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\extern\\googletest\\googletest\\include -IC:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\extern\\googletest\\googletest /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -std:c++latest -MDd -Zi -GS -W4 -WX -wd4251 -wd4275 -nologo -J -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -utf-8 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1  @extern\\googletest\\googlemock\\CMakeFiles\\gmock.dir\\__\\googletest\\src\\gtest-all.cc.obj.modmap /Foextern\\googletest\\googlemock\\CMakeFiles\\gmock.dir\\__\\googletest\\src\\gtest-all.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\extern\\googletest\\googletest\\src\\gtest-all.cc",
+  "file": "C:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\extern\\googletest\\googletest\\src\\gtest-all.cc",
+  "output": "extern\\googletest\\googlemock\\CMakeFiles\\gmock.dir\\__\\googletest\\src\\gtest-all.cc.obj"
+},
+{
+  "directory": "C:/Users/Leone/Escritorio/FCFM/9no_Semestre/GPU/GPU_t1/out/build/x64-Debug",
+  "command": "\"C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe\"  /nologo /TP -IC:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\extern\\googletest\\googlemock\\include -IC:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\extern\\googletest\\googlemock -IC:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\extern\\googletest\\googletest\\include -IC:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\extern\\googletest\\googletest /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -std:c++latest -MDd -Zi -GS -W4 -WX -wd4251 -wd4275 -nologo -J -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -utf-8 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1  @extern\\googletest\\googlemock\\CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj.modmap /Foextern\\googletest\\googlemock\\CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\extern\\googletest\\googlemock\\src\\gmock-all.cc",
+  "file": "C:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\extern\\googletest\\googlemock\\src\\gmock-all.cc",
+  "output": "extern\\googletest\\googlemock\\CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj"
+},
+{
+  "directory": "C:/Users/Leone/Escritorio/FCFM/9no_Semestre/GPU/GPU_t1/out/build/x64-Debug",
+  "command": "\"C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe\"  /nologo /TP -IC:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\extern\\googletest\\googlemock\\include -IC:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\extern\\googletest\\googlemock -IC:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\extern\\googletest\\googletest\\include -IC:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\extern\\googletest\\googletest /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -std:c++latest -MDd -Zi -GS -W4 -WX -wd4251 -wd4275 -nologo -J -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -utf-8 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1  @extern\\googletest\\googlemock\\CMakeFiles\\gmock_main.dir\\__\\googletest\\src\\gtest-all.cc.obj.modmap /Foextern\\googletest\\googlemock\\CMakeFiles\\gmock_main.dir\\__\\googletest\\src\\gtest-all.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\extern\\googletest\\googletest\\src\\gtest-all.cc",
+  "file": "C:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\extern\\googletest\\googletest\\src\\gtest-all.cc",
+  "output": "extern\\googletest\\googlemock\\CMakeFiles\\gmock_main.dir\\__\\googletest\\src\\gtest-all.cc.obj"
+},
+{
+  "directory": "C:/Users/Leone/Escritorio/FCFM/9no_Semestre/GPU/GPU_t1/out/build/x64-Debug",
+  "command": "\"C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe\"  /nologo /TP -IC:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\extern\\googletest\\googlemock\\include -IC:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\extern\\googletest\\googlemock -IC:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\extern\\googletest\\googletest\\include -IC:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\extern\\googletest\\googletest /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -std:c++latest -MDd -Zi -GS -W4 -WX -wd4251 -wd4275 -nologo -J -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -utf-8 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1  @extern\\googletest\\googlemock\\CMakeFiles\\gmock_main.dir\\src\\gmock-all.cc.obj.modmap /Foextern\\googletest\\googlemock\\CMakeFiles\\gmock_main.dir\\src\\gmock-all.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\extern\\googletest\\googlemock\\src\\gmock-all.cc",
+  "file": "C:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\extern\\googletest\\googlemock\\src\\gmock-all.cc",
+  "output": "extern\\googletest\\googlemock\\CMakeFiles\\gmock_main.dir\\src\\gmock-all.cc.obj"
+},
+{
+  "directory": "C:/Users/Leone/Escritorio/FCFM/9no_Semestre/GPU/GPU_t1/out/build/x64-Debug",
+  "command": "\"C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe\"  /nologo /TP -IC:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\extern\\googletest\\googlemock\\include -IC:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\extern\\googletest\\googlemock -IC:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\extern\\googletest\\googletest\\include -IC:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\extern\\googletest\\googletest /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -std:c++latest -MDd -Zi -GS -W4 -WX -wd4251 -wd4275 -nologo -J -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -utf-8 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1  @extern\\googletest\\googlemock\\CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj.modmap /Foextern\\googletest\\googlemock\\CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\extern\\googletest\\googlemock\\src\\gmock_main.cc",
+  "file": "C:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\extern\\googletest\\googlemock\\src\\gmock_main.cc",
+  "output": "extern\\googletest\\googlemock\\CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj"
+},
+{
+  "directory": "C:/Users/Leone/Escritorio/FCFM/9no_Semestre/GPU/GPU_t1/out/build/x64-Debug",
+  "command": "\"C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe\"  /nologo /TP -IC:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\extern\\googletest\\googletest\\include -IC:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\extern\\googletest\\googletest /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -std:c++latest -MDd -Zi -GS -W4 -WX -wd4251 -wd4275 -nologo -J -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -utf-8 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1  @extern\\googletest\\googletest\\CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj.modmap /Foextern\\googletest\\googletest\\CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\extern\\googletest\\googletest\\src\\gtest-all.cc",
+  "file": "C:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\extern\\googletest\\googletest\\src\\gtest-all.cc",
+  "output": "extern\\googletest\\googletest\\CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj"
+},
+{
+  "directory": "C:/Users/Leone/Escritorio/FCFM/9no_Semestre/GPU/GPU_t1/out/build/x64-Debug",
+  "command": "\"C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe\"  /nologo /TP -external:IC:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\extern\\googletest\\googletest\\include -external:IC:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\extern\\googletest\\googletest -external:W0 /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -std:c++latest -MDd -Zi -GS -W4 -WX -wd4251 -wd4275 -nologo -J -D_UNICODE -DUNICODE -DWIN32 -D_WIN32 -DSTRICT -DWIN32_LEAN_AND_MEAN -wd4702 -utf-8 -DGTEST_HAS_PTHREAD=0 -EHsc -D_HAS_EXCEPTIONS=1  @extern\\googletest\\googletest\\CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj.modmap /Foextern\\googletest\\googletest\\CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\extern\\googletest\\googletest\\src\\gtest_main.cc",
+  "file": "C:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\extern\\googletest\\googletest\\src\\gtest_main.cc",
+  "output": "extern\\googletest\\googletest\\CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj"
+},
+{
+  "directory": "C:/Users/Leone/Escritorio/FCFM/9no_Semestre/GPU/GPU_t1/out/build/x64-Debug",
+  "command": "\"C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx64\\x64\\cl.exe\"  /nologo /TP -IC:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\src -external:IC:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\extern\\googletest\\googletest\\include -external:IC:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\extern\\googletest\\googletest -external:W0 /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest -MDd -Zi @test\\CMakeFiles\\GPU_t1Tests.dir\\matrix_test.cpp.obj.modmap /Fotest\\CMakeFiles\\GPU_t1Tests.dir\\matrix_test.cpp.obj /FdTARGET_COMPILE_PDB /FS -c C:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\test\\matrix_test.cpp",
+  "file": "C:\\Users\\Leone\\Escritorio\\FCFM\\9no_Semestre\\GPU\\GPU_t1\\test\\matrix_test.cpp",
+  "output": "test\\CMakeFiles\\GPU_t1Tests.dir\\matrix_test.cpp.obj"
+}
+]

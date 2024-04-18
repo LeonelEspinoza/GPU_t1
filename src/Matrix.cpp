@@ -36,10 +36,16 @@ Matrix::Matrix(const Matrix &matrix) {
 }
 
 double &Matrix::operator[](std::size_t x, std::size_t y) {
+    if (n<=x || m<=y){
+        throw std::invalid_argument("Index out of range");
+    }
     return mat[m*x+y];
 }
 
 const double &Matrix::operator[](std::size_t x, std::size_t y) const {
+    if (n<=x || m<=y){
+        throw std::invalid_argument("Index out of range");
+    }
     return mat[m*x+y];
 }
 
@@ -78,6 +84,7 @@ double Matrix::min() const {
 }
 
 std::ostream &operator<(std::ostream &os, const Matrix &mat) {
+
     for(int i=0;i<mat.n;i++){
         for(int j=0;j<mat.m;j++){
             os<<mat.mat[i*mat.m+j]<<" ";
@@ -123,7 +130,7 @@ Matrix &Matrix::operator=(const Matrix &matrix) {
 Matrix &Matrix::operator*=(const Matrix &matrix) {
     if(m!=matrix.n){
         throw std::invalid_argument(
-                "Can´t multiply matrices: First matrix's number of rows must be equal to second matrix's number of columns"
+                "Can´t multiply matrices: First matrix's number of columns must be equal to second matrix's number of rows"
                 );
     }
     Matrix res (n,matrix.m);
@@ -152,6 +159,11 @@ Matrix &Matrix::operator*=(double a) {
 }
 
 Matrix &Matrix::operator+=(const Matrix &matrix) {
+    if( this->size()!=matrix.size()){
+        throw std::invalid_argument(
+                "Can´t add matrices: matrices must have same size"
+        );
+    }
     for (int i = 0; i < n; ++i) {
         for (int j = 0; j < m; ++j) {
             this->operator[](i,j)=this->operator[](i,j)+matrix[i,j];
@@ -161,6 +173,11 @@ Matrix &Matrix::operator+=(const Matrix &matrix) {
 }
 
 Matrix &Matrix::operator-=(const Matrix &matrix) {
+    if( this->size()!=matrix.size()){
+        throw std::invalid_argument(
+                "Can´t subtract matrices: matrices must have same size"
+        );
+    }
     for (int i = 0; i < n; ++i) {
         for (int j = 0; j < m; ++j) {
             this->operator[](i,j)=this->operator[](i,j)-matrix[i,j];
