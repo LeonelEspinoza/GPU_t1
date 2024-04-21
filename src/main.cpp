@@ -1,5 +1,5 @@
 #include <iostream>
-#include "src/Matrix.h"
+#include "Matrix.h"
 
 int main(int argc, char* argv[]){
     Matrix mat(2,3);
