@@ -1,8 +1,8 @@
 //
 // Created by Leone on 17-04-2024.
 //
-#include "src\Matrix.cpp"
-#include "gtest\gtest.h"
+#include "../src/Matrix.cpp"
+#include "gtest/gtest.h"
 
 TEST(CPPLib, MatrixCreate) {
     std::cout<<"nihao"<<std::endl;

@@ -14,7 +14,7 @@ add_library(${PROJECT_NAME} STATIC ${GPUT1_SRC})
 target_include_directories(${PROJECT_NAME} INTERFACE ${PROJECT_SOURCE_DIR}/src)
 
 add_executable(MAIN ${PROJECT_SOURCE_DIR}/src/main.cpp)
-target_link_libraries(MAIN ${PROJECT_NAME}})
+target_link_libraries(MAIN ${PROJECT_NAME})
 
 include(CTest)
 add_subdirectory(extern)

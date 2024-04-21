@@ -1,0 +1,2 @@
+/usr/bin/ar qc libGPU_t1.a CMakeFiles/GPU_t1.dir/src/Matrix.cpp.o
+/usr/bin/ranlib libGPU_t1.a
