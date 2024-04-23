@@ -97,11 +97,12 @@ double Matrix::min() const {
     return _min;
 }
 
-std::ostream &operator<(std::ostream &os, const Matrix &mat) {
-
-    for(int i=0;i<mat.n;i++){
-        for(int j=0;j<mat.m;j++){
-            os<<mat.mat[i*mat.m+j]<<" ";
+std::ostream &operator<<(std::ostream &os, const Matrix &mat) {
+    int n = std::get<0>(mat.size());
+    int m = std::get<1>(mat.size());
+    for(int i=0;i<n;i++){
+        for(int j=0;j<m;j++){
+            os<<mat[i,j]<<" ";
         }
         os<<std::endl;
     }
@@ -128,9 +129,6 @@ bool Matrix::operator==(const Matrix &matrix) const {
     for(int i=0;i<n;i++){
         for(int j=0;j<m;j++){
             if(this->operator[](i,j)!=matrix[i,j]){
-                return false;
-            }
-            if(mat[m*i+j]!=matrix[i,j]){
                 return false;
             }
         }
