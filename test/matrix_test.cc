@@ -4,13 +4,13 @@
 #include "../src/Matrix.cpp"
 #include "gtest/gtest.h"
 
-TEST(CPPLib, MatrixCreate) {
+TEST(MatrixTest, MatrixCreateNM) {
   Matrix mat (3,2);
   Matrix mat2 (3,2);
   ASSERT_EQ(mat,mat2);
 }
 
-TEST(CPPlib, MatrixFileCreate){
+TEST(MatrixTest, MatrixFileCreate){
   Matrix mat("ExMatrix.txt");
   Matrix Example(2,3);
   Example[0,0]=1;
@@ -23,7 +23,7 @@ TEST(CPPlib, MatrixFileCreate){
   ASSERT_EQ(mat,Example);
 }
 
-TEST(CPPLib, MatrixSaveToFile){
+TEST(MatrixTest, MatrixSaveToFile){
   Matrix mat(4,4);
   mat.fill(9);
   mat[0,3]=0.3;
@@ -34,33 +34,51 @@ TEST(CPPLib, MatrixSaveToFile){
   Matrix mat2("Matrix4x4.txt");
   ASSERT_EQ(mat,mat2);
 }
-/*
-#include "gtest/gtest.h"
-#include "geom/point.h"
-#include "geom/triangle.h"
 
-using Pd = Point<double>;
-using Td = Triangle<double>;
-
-TEST(CPPLib, TriangleCreate) {
-  Pd p1(-1.0, 0.0);
-  Pd p2(1.0, 0.0);
-  Pd p3(0.0, 1.0);
-
-  Td t(p1, p2, p3);
-
-  ASSERT_EQ(t[0], p1);
-  ASSERT_EQ(t[1], p2);
-  ASSERT_EQ(t[2], p3);
+TEST(MatrixTest, MatrixSetGetValue){
+  Matrix mat(3,3);
+  mat[1,1] = 1;
+  double c = mat[1,1];
+  ASSERT_EQ(c,1);
 }
 
-TEST(CPPLib, TriangleArea) {
-  Pd p1(-1.0, 0.0);
-  Pd p2(1.0, 0.0);
-  Pd p3(0.0, 1.0);
-
-  Td t(p1, p2, p3);
-
-  ASSERT_EQ(t.area(), 1.0);
+TEST(MatrixTest, MatrixExptSetValue){
+  Matrix mat(2,2);
+  
+  ASSERT_THROW({
+    try{
+      mat.operator[](2,2)= 22;
+    }
+    catch(const std::invalid_argument& e){
+      throw e;
+    } 
+  }, std::invalid_argument);
 }
- */
+
+TEST(MatrixTest, MatrixExptGETValue){
+  Matrix mat(2,2);
+  
+  ASSERT_THROW({
+    try{
+      double c = mat.operator[](2,2);
+    }
+    catch(const std::invalid_argument& e){
+      throw e;
+    } 
+  }, std::invalid_argument);
+}
+
+TEST(MatrixTest, MatrixFill){
+  Matrix mat(9,9);
+  mat.fill(9);
+  std::tuple<int,int> nm = mat.size();
+  int n = std::get<0>(nm);
+  int m = std::get<1>(nm);
+  double tmp=0;
+  for(int i=0;i<n;i++){
+    for(int j=0;j<m;j++){
+      tmp=mat[i,j];
+      ASSERT_EQ(tmp,9);
+    }
+  }
+}

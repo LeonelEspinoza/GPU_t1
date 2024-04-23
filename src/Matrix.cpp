@@ -31,11 +31,9 @@ Matrix::Matrix(const std::string &filename){
     Matrix::n = 0;
     Matrix::m = 0;
     F >> n >> m;
-    std::cout<<n<<"=n m="<<m<<std::endl;
     Matrix::mat = std::make_unique<double[]>(n*m);
     for (int i = 0; i < n*m; i++){
         F >> mat[i];
-        std::cout<<mat[i]<<std::endl;
     }
     F.close();
 }
@@ -230,4 +228,3 @@ Matrix &Matrix::transpose() {
 
 
 Matrix::~Matrix() = default;
-
