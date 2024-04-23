@@ -3,6 +3,8 @@
 //
 #include "Matrix.h"
 #include <cstdlib>
+#include <fstream>
+#include <iostream>
 
 Matrix::Matrix() {
     Matrix::n = 0;
@@ -22,6 +24,20 @@ Matrix::Matrix(int n, int m) {
     Matrix::m = m;
     Matrix::mat = std::make_unique<double[]>(n*m);
     this->fill(0);
+}
+
+Matrix::Matrix(const std::string &filename){
+    std::ifstream F(filename);
+    Matrix::n = 0;
+    Matrix::m = 0;
+    F >> n >> m;
+    std::cout<<n<<"=n m="<<m<<std::endl;
+    Matrix::mat = std::make_unique<double[]>(n*m);
+    for (int i = 0; i < n*m; i++){
+        F >> mat[i];
+        std::cout<<mat[i]<<std::endl;
+    }
+    F.close();
 }
 
 Matrix::Matrix(const Matrix &matrix) {
@@ -92,6 +108,19 @@ std::ostream &operator<(std::ostream &os, const Matrix &mat) {
         os<<std::endl;
     }
     return os;
+}
+
+void Matrix::save_to_file(const std::string &filename) const {
+    std::ofstream F(filename);
+    F << n << " " << m << std::endl;
+    for (int i = 0; i < n; i++){
+        for (int j = 0; j< m; j++){
+            F << this->operator[](i,j) << " ";
+        }
+        F<<std::endl;
+    }
+    F.close();
+    return;
 }
 
 bool Matrix::operator==(const Matrix &matrix) const {
