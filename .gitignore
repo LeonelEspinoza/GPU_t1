@@ -33,6 +33,6 @@
 
 #Extras
 .vscode
-build
+build/
 Matrix4x4.txt
 a.cpp
