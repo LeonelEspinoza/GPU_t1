@@ -1,0 +1,705 @@
+Start testing: Apr 23 19:49 -04
+----------------------------------------------------------
+1/26 Testing: MatrixCreate.MT
+1/26 Test: MatrixCreate.MT
+Command: "/home/leo/Desktop/FCFM/GPU/GPU_t1/build/test/GPU_t1Tests" "--gtest_filter=MatrixCreate.MT" "--gtest_also_run_disabled_tests"
+Directory: /home/leo/Desktop/FCFM/GPU/GPU_t1/build/test
+"MatrixCreate.MT" start time: Apr 23 19:49 -04
+Output:
+----------------------------------------------------------
+Running main() from /home/leo/Desktop/FCFM/GPU/GPU_t1/extern/googletest/googletest/src/gtest_main.cc
+[0;33mNote: Google Test filter = MatrixCreate.MT
+[m[0;32m[==========] [mRunning 1 test from 1 test suite.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from MatrixCreate
+[0;32m[ RUN      ] [mMatrixCreate.MT
+[0;32m[       OK ] [mMatrixCreate.MT (0 ms)
+[0;32m[----------] [m1 test from MatrixCreate (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test suite ran. (0 ms total)
+[0;32m[  PASSED  ] [m1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MatrixCreate.MT" end time: Apr 23 19:49 -04
+"MatrixCreate.MT" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/26 Testing: MatrixCreate.N
+2/26 Test: MatrixCreate.N
+Command: "/home/leo/Desktop/FCFM/GPU/GPU_t1/build/test/GPU_t1Tests" "--gtest_filter=MatrixCreate.N" "--gtest_also_run_disabled_tests"
+Directory: /home/leo/Desktop/FCFM/GPU/GPU_t1/build/test
+"MatrixCreate.N" start time: Apr 23 19:49 -04
+Output:
+----------------------------------------------------------
+Running main() from /home/leo/Desktop/FCFM/GPU/GPU_t1/extern/googletest/googletest/src/gtest_main.cc
+[0;33mNote: Google Test filter = MatrixCreate.N
+[m[0;32m[==========] [mRunning 1 test from 1 test suite.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from MatrixCreate
+[0;32m[ RUN      ] [mMatrixCreate.N
+[0;32m[       OK ] [mMatrixCreate.N (0 ms)
+[0;32m[----------] [m1 test from MatrixCreate (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test suite ran. (0 ms total)
+[0;32m[  PASSED  ] [m1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MatrixCreate.N" end time: Apr 23 19:49 -04
+"MatrixCreate.N" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/26 Testing: MatrixCreate.NM
+3/26 Test: MatrixCreate.NM
+Command: "/home/leo/Desktop/FCFM/GPU/GPU_t1/build/test/GPU_t1Tests" "--gtest_filter=MatrixCreate.NM" "--gtest_also_run_disabled_tests"
+Directory: /home/leo/Desktop/FCFM/GPU/GPU_t1/build/test
+"MatrixCreate.NM" start time: Apr 23 19:49 -04
+Output:
+----------------------------------------------------------
+Running main() from /home/leo/Desktop/FCFM/GPU/GPU_t1/extern/googletest/googletest/src/gtest_main.cc
+[0;33mNote: Google Test filter = MatrixCreate.NM
+[m[0;32m[==========] [mRunning 1 test from 1 test suite.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from MatrixCreate
+[0;32m[ RUN      ] [mMatrixCreate.NM
+[0;32m[       OK ] [mMatrixCreate.NM (0 ms)
+[0;32m[----------] [m1 test from MatrixCreate (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test suite ran. (0 ms total)
+[0;32m[  PASSED  ] [m1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MatrixCreate.NM" end time: Apr 23 19:49 -04
+"MatrixCreate.NM" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/26 Testing: MatrixCreate.FileSaveAndFileCopy
+4/26 Test: MatrixCreate.FileSaveAndFileCopy
+Command: "/home/leo/Desktop/FCFM/GPU/GPU_t1/build/test/GPU_t1Tests" "--gtest_filter=MatrixCreate.FileSaveAndFileCopy" "--gtest_also_run_disabled_tests"
+Directory: /home/leo/Desktop/FCFM/GPU/GPU_t1/build/test
+"MatrixCreate.FileSaveAndFileCopy" start time: Apr 23 19:49 -04
+Output:
+----------------------------------------------------------
+Running main() from /home/leo/Desktop/FCFM/GPU/GPU_t1/extern/googletest/googletest/src/gtest_main.cc
+[0;33mNote: Google Test filter = MatrixCreate.FileSaveAndFileCopy
+[m[0;32m[==========] [mRunning 1 test from 1 test suite.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from MatrixCreate
+[0;32m[ RUN      ] [mMatrixCreate.FileSaveAndFileCopy
+[0;32m[       OK ] [mMatrixCreate.FileSaveAndFileCopy (1 ms)
+[0;32m[----------] [m1 test from MatrixCreate (1 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test suite ran. (1 ms total)
+[0;32m[  PASSED  ] [m1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MatrixCreate.FileSaveAndFileCopy" end time: Apr 23 19:49 -04
+"MatrixCreate.FileSaveAndFileCopy" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/26 Testing: MatrixCreate.CopyMatrix
+5/26 Test: MatrixCreate.CopyMatrix
+Command: "/home/leo/Desktop/FCFM/GPU/GPU_t1/build/test/GPU_t1Tests" "--gtest_filter=MatrixCreate.CopyMatrix" "--gtest_also_run_disabled_tests"
+Directory: /home/leo/Desktop/FCFM/GPU/GPU_t1/build/test
+"MatrixCreate.CopyMatrix" start time: Apr 23 19:49 -04
+Output:
+----------------------------------------------------------
+Running main() from /home/leo/Desktop/FCFM/GPU/GPU_t1/extern/googletest/googletest/src/gtest_main.cc
+[0;33mNote: Google Test filter = MatrixCreate.CopyMatrix
+[m[0;32m[==========] [mRunning 1 test from 1 test suite.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from MatrixCreate
+[0;32m[ RUN      ] [mMatrixCreate.CopyMatrix
+[0;32m[       OK ] [mMatrixCreate.CopyMatrix (0 ms)
+[0;32m[----------] [m1 test from MatrixCreate (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test suite ran. (0 ms total)
+[0;32m[  PASSED  ] [m1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MatrixCreate.CopyMatrix" end time: Apr 23 19:49 -04
+"MatrixCreate.CopyMatrix" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/26 Testing: MatrixSetGet.SetGet
+6/26 Test: MatrixSetGet.SetGet
+Command: "/home/leo/Desktop/FCFM/GPU/GPU_t1/build/test/GPU_t1Tests" "--gtest_filter=MatrixSetGet.SetGet" "--gtest_also_run_disabled_tests"
+Directory: /home/leo/Desktop/FCFM/GPU/GPU_t1/build/test
+"MatrixSetGet.SetGet" start time: Apr 23 19:49 -04
+Output:
+----------------------------------------------------------
+Running main() from /home/leo/Desktop/FCFM/GPU/GPU_t1/extern/googletest/googletest/src/gtest_main.cc
+[0;33mNote: Google Test filter = MatrixSetGet.SetGet
+[m[0;32m[==========] [mRunning 1 test from 1 test suite.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from MatrixSetGet
+[0;32m[ RUN      ] [mMatrixSetGet.SetGet
+[0;32m[       OK ] [mMatrixSetGet.SetGet (0 ms)
+[0;32m[----------] [m1 test from MatrixSetGet (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test suite ran. (2 ms total)
+[0;32m[  PASSED  ] [m1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"MatrixSetGet.SetGet" end time: Apr 23 19:49 -04
+"MatrixSetGet.SetGet" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/26 Testing: MatrixSetGet.ExeptionSet
+7/26 Test: MatrixSetGet.ExeptionSet
+Command: "/home/leo/Desktop/FCFM/GPU/GPU_t1/build/test/GPU_t1Tests" "--gtest_filter=MatrixSetGet.ExeptionSet" "--gtest_also_run_disabled_tests"
+Directory: /home/leo/Desktop/FCFM/GPU/GPU_t1/build/test
+"MatrixSetGet.ExeptionSet" start time: Apr 23 19:49 -04
+Output:
+----------------------------------------------------------
+Running main() from /home/leo/Desktop/FCFM/GPU/GPU_t1/extern/googletest/googletest/src/gtest_main.cc
+[0;33mNote: Google Test filter = MatrixSetGet.ExeptionSet
+[m[0;32m[==========] [mRunning 1 test from 1 test suite.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from MatrixSetGet
+[0;32m[ RUN      ] [mMatrixSetGet.ExeptionSet
+[0;32m[       OK ] [mMatrixSetGet.ExeptionSet (0 ms)
+[0;32m[----------] [m1 test from MatrixSetGet (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test suite ran. (9 ms total)
+[0;32m[  PASSED  ] [m1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"MatrixSetGet.ExeptionSet" end time: Apr 23 19:49 -04
+"MatrixSetGet.ExeptionSet" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/26 Testing: MatrixSetGet.ExeptionGet
+8/26 Test: MatrixSetGet.ExeptionGet
+Command: "/home/leo/Desktop/FCFM/GPU/GPU_t1/build/test/GPU_t1Tests" "--gtest_filter=MatrixSetGet.ExeptionGet" "--gtest_also_run_disabled_tests"
+Directory: /home/leo/Desktop/FCFM/GPU/GPU_t1/build/test
+"MatrixSetGet.ExeptionGet" start time: Apr 23 19:49 -04
+Output:
+----------------------------------------------------------
+Running main() from /home/leo/Desktop/FCFM/GPU/GPU_t1/extern/googletest/googletest/src/gtest_main.cc
+[0;33mNote: Google Test filter = MatrixSetGet.ExeptionGet
+[m[0;32m[==========] [mRunning 1 test from 1 test suite.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from MatrixSetGet
+[0;32m[ RUN      ] [mMatrixSetGet.ExeptionGet
+[0;32m[       OK ] [mMatrixSetGet.ExeptionGet (0 ms)
+[0;32m[----------] [m1 test from MatrixSetGet (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test suite ran. (3 ms total)
+[0;32m[  PASSED  ] [m1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"MatrixSetGet.ExeptionGet" end time: Apr 23 19:49 -04
+"MatrixSetGet.ExeptionGet" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/26 Testing: MatrixSetGet.Fill
+9/26 Test: MatrixSetGet.Fill
+Command: "/home/leo/Desktop/FCFM/GPU/GPU_t1/build/test/GPU_t1Tests" "--gtest_filter=MatrixSetGet.Fill" "--gtest_also_run_disabled_tests"
+Directory: /home/leo/Desktop/FCFM/GPU/GPU_t1/build/test
+"MatrixSetGet.Fill" start time: Apr 23 19:49 -04
+Output:
+----------------------------------------------------------
+Running main() from /home/leo/Desktop/FCFM/GPU/GPU_t1/extern/googletest/googletest/src/gtest_main.cc
+[0;33mNote: Google Test filter = MatrixSetGet.Fill
+[m[0;32m[==========] [mRunning 1 test from 1 test suite.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from MatrixSetGet
+[0;32m[ RUN      ] [mMatrixSetGet.Fill
+[0;32m[       OK ] [mMatrixSetGet.Fill (0 ms)
+[0;32m[----------] [m1 test from MatrixSetGet (6 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test suite ran. (7 ms total)
+[0;32m[  PASSED  ] [m1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"MatrixSetGet.Fill" end time: Apr 23 19:49 -04
+"MatrixSetGet.Fill" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/26 Testing: MatrixDim.Size
+10/26 Test: MatrixDim.Size
+Command: "/home/leo/Desktop/FCFM/GPU/GPU_t1/build/test/GPU_t1Tests" "--gtest_filter=MatrixDim.Size" "--gtest_also_run_disabled_tests"
+Directory: /home/leo/Desktop/FCFM/GPU/GPU_t1/build/test
+"MatrixDim.Size" start time: Apr 23 19:49 -04
+Output:
+----------------------------------------------------------
+Running main() from /home/leo/Desktop/FCFM/GPU/GPU_t1/extern/googletest/googletest/src/gtest_main.cc
+[0;33mNote: Google Test filter = MatrixDim.Size
+[m[0;32m[==========] [mRunning 1 test from 1 test suite.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from MatrixDim
+[0;32m[ RUN      ] [mMatrixDim.Size
+[0;32m[       OK ] [mMatrixDim.Size (0 ms)
+[0;32m[----------] [m1 test from MatrixDim (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test suite ran. (0 ms total)
+[0;32m[  PASSED  ] [m1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"MatrixDim.Size" end time: Apr 23 19:49 -04
+"MatrixDim.Size" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/26 Testing: MatrixDim.Length
+11/26 Test: MatrixDim.Length
+Command: "/home/leo/Desktop/FCFM/GPU/GPU_t1/build/test/GPU_t1Tests" "--gtest_filter=MatrixDim.Length" "--gtest_also_run_disabled_tests"
+Directory: /home/leo/Desktop/FCFM/GPU/GPU_t1/build/test
+"MatrixDim.Length" start time: Apr 23 19:49 -04
+Output:
+----------------------------------------------------------
+Running main() from /home/leo/Desktop/FCFM/GPU/GPU_t1/extern/googletest/googletest/src/gtest_main.cc
+[0;33mNote: Google Test filter = MatrixDim.Length
+[m[0;32m[==========] [mRunning 1 test from 1 test suite.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from MatrixDim
+[0;32m[ RUN      ] [mMatrixDim.Length
+[0;32m[       OK ] [mMatrixDim.Length (0 ms)
+[0;32m[----------] [m1 test from MatrixDim (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test suite ran. (0 ms total)
+[0;32m[  PASSED  ] [m1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"MatrixDim.Length" end time: Apr 23 19:49 -04
+"MatrixDim.Length" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/26 Testing: MatrixVal.Max
+12/26 Test: MatrixVal.Max
+Command: "/home/leo/Desktop/FCFM/GPU/GPU_t1/build/test/GPU_t1Tests" "--gtest_filter=MatrixVal.Max" "--gtest_also_run_disabled_tests"
+Directory: /home/leo/Desktop/FCFM/GPU/GPU_t1/build/test
+"MatrixVal.Max" start time: Apr 23 19:49 -04
+Output:
+----------------------------------------------------------
+Running main() from /home/leo/Desktop/FCFM/GPU/GPU_t1/extern/googletest/googletest/src/gtest_main.cc
+[0;33mNote: Google Test filter = MatrixVal.Max
+[m[0;32m[==========] [mRunning 1 test from 1 test suite.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from MatrixVal
+[0;32m[ RUN      ] [mMatrixVal.Max
+[0;32m[       OK ] [mMatrixVal.Max (0 ms)
+[0;32m[----------] [m1 test from MatrixVal (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test suite ran. (0 ms total)
+[0;32m[  PASSED  ] [m1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"MatrixVal.Max" end time: Apr 23 19:49 -04
+"MatrixVal.Max" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/26 Testing: MatrixVal.Min
+13/26 Test: MatrixVal.Min
+Command: "/home/leo/Desktop/FCFM/GPU/GPU_t1/build/test/GPU_t1Tests" "--gtest_filter=MatrixVal.Min" "--gtest_also_run_disabled_tests"
+Directory: /home/leo/Desktop/FCFM/GPU/GPU_t1/build/test
+"MatrixVal.Min" start time: Apr 23 19:49 -04
+Output:
+----------------------------------------------------------
+Running main() from /home/leo/Desktop/FCFM/GPU/GPU_t1/extern/googletest/googletest/src/gtest_main.cc
+[0;33mNote: Google Test filter = MatrixVal.Min
+[m[0;32m[==========] [mRunning 1 test from 1 test suite.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from MatrixVal
+[0;32m[ RUN      ] [mMatrixVal.Min
+[0;32m[       OK ] [mMatrixVal.Min (0 ms)
+[0;32m[----------] [m1 test from MatrixVal (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test suite ran. (18 ms total)
+[0;32m[  PASSED  ] [m1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"MatrixVal.Min" end time: Apr 23 19:49 -04
+"MatrixVal.Min" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/26 Testing: MatrixBool.Equal
+14/26 Test: MatrixBool.Equal
+Command: "/home/leo/Desktop/FCFM/GPU/GPU_t1/build/test/GPU_t1Tests" "--gtest_filter=MatrixBool.Equal" "--gtest_also_run_disabled_tests"
+Directory: /home/leo/Desktop/FCFM/GPU/GPU_t1/build/test
+"MatrixBool.Equal" start time: Apr 23 19:49 -04
+Output:
+----------------------------------------------------------
+Running main() from /home/leo/Desktop/FCFM/GPU/GPU_t1/extern/googletest/googletest/src/gtest_main.cc
+[0;33mNote: Google Test filter = MatrixBool.Equal
+[m[0;32m[==========] [mRunning 1 test from 1 test suite.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from MatrixBool
+[0;32m[ RUN      ] [mMatrixBool.Equal
+[0;32m[       OK ] [mMatrixBool.Equal (0 ms)
+[0;32m[----------] [m1 test from MatrixBool (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test suite ran. (8 ms total)
+[0;32m[  PASSED  ] [m1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"MatrixBool.Equal" end time: Apr 23 19:49 -04
+"MatrixBool.Equal" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/26 Testing: MatrixBool.Diff
+15/26 Test: MatrixBool.Diff
+Command: "/home/leo/Desktop/FCFM/GPU/GPU_t1/build/test/GPU_t1Tests" "--gtest_filter=MatrixBool.Diff" "--gtest_also_run_disabled_tests"
+Directory: /home/leo/Desktop/FCFM/GPU/GPU_t1/build/test
+"MatrixBool.Diff" start time: Apr 23 19:49 -04
+Output:
+----------------------------------------------------------
+Running main() from /home/leo/Desktop/FCFM/GPU/GPU_t1/extern/googletest/googletest/src/gtest_main.cc
+[0;33mNote: Google Test filter = MatrixBool.Diff
+[m[0;32m[==========] [mRunning 1 test from 1 test suite.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from MatrixBool
+[0;32m[ RUN      ] [mMatrixBool.Diff
+[0;32m[       OK ] [mMatrixBool.Diff (0 ms)
+[0;32m[----------] [m1 test from MatrixBool (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test suite ran. (11 ms total)
+[0;32m[  PASSED  ] [m1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"MatrixBool.Diff" end time: Apr 23 19:49 -04
+"MatrixBool.Diff" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/26 Testing: MatrixMath.assign
+16/26 Test: MatrixMath.assign
+Command: "/home/leo/Desktop/FCFM/GPU/GPU_t1/build/test/GPU_t1Tests" "--gtest_filter=MatrixMath.assign" "--gtest_also_run_disabled_tests"
+Directory: /home/leo/Desktop/FCFM/GPU/GPU_t1/build/test
+"MatrixMath.assign" start time: Apr 23 19:49 -04
+Output:
+----------------------------------------------------------
+Running main() from /home/leo/Desktop/FCFM/GPU/GPU_t1/extern/googletest/googletest/src/gtest_main.cc
+[0;33mNote: Google Test filter = MatrixMath.assign
+[m[0;32m[==========] [mRunning 1 test from 1 test suite.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from MatrixMath
+[0;32m[ RUN      ] [mMatrixMath.assign
+[0;32m[       OK ] [mMatrixMath.assign (0 ms)
+[0;32m[----------] [m1 test from MatrixMath (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test suite ran. (0 ms total)
+[0;32m[  PASSED  ] [m1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MatrixMath.assign" end time: Apr 23 19:49 -04
+"MatrixMath.assign" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/26 Testing: MatrixMath.MultMatrix
+17/26 Test: MatrixMath.MultMatrix
+Command: "/home/leo/Desktop/FCFM/GPU/GPU_t1/build/test/GPU_t1Tests" "--gtest_filter=MatrixMath.MultMatrix" "--gtest_also_run_disabled_tests"
+Directory: /home/leo/Desktop/FCFM/GPU/GPU_t1/build/test
+"MatrixMath.MultMatrix" start time: Apr 23 19:49 -04
+Output:
+----------------------------------------------------------
+Running main() from /home/leo/Desktop/FCFM/GPU/GPU_t1/extern/googletest/googletest/src/gtest_main.cc
+[0;33mNote: Google Test filter = MatrixMath.MultMatrix
+[m[0;32m[==========] [mRunning 1 test from 1 test suite.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from MatrixMath
+[0;32m[ RUN      ] [mMatrixMath.MultMatrix
+[0;32m[       OK ] [mMatrixMath.MultMatrix (0 ms)
+[0;32m[----------] [m1 test from MatrixMath (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test suite ran. (0 ms total)
+[0;32m[  PASSED  ] [m1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MatrixMath.MultMatrix" end time: Apr 23 19:49 -04
+"MatrixMath.MultMatrix" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/26 Testing: MatrixMath.ExeptionMultMatrix
+18/26 Test: MatrixMath.ExeptionMultMatrix
+Command: "/home/leo/Desktop/FCFM/GPU/GPU_t1/build/test/GPU_t1Tests" "--gtest_filter=MatrixMath.ExeptionMultMatrix" "--gtest_also_run_disabled_tests"
+Directory: /home/leo/Desktop/FCFM/GPU/GPU_t1/build/test
+"MatrixMath.ExeptionMultMatrix" start time: Apr 23 19:49 -04
+Output:
+----------------------------------------------------------
+Running main() from /home/leo/Desktop/FCFM/GPU/GPU_t1/extern/googletest/googletest/src/gtest_main.cc
+[0;33mNote: Google Test filter = MatrixMath.ExeptionMultMatrix
+[m[0;32m[==========] [mRunning 1 test from 1 test suite.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from MatrixMath
+[0;32m[ RUN      ] [mMatrixMath.ExeptionMultMatrix
+[0;32m[       OK ] [mMatrixMath.ExeptionMultMatrix (0 ms)
+[0;32m[----------] [m1 test from MatrixMath (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test suite ran. (0 ms total)
+[0;32m[  PASSED  ] [m1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MatrixMath.ExeptionMultMatrix" end time: Apr 23 19:49 -04
+"MatrixMath.ExeptionMultMatrix" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/26 Testing: MatrixMath.MultConstant
+19/26 Test: MatrixMath.MultConstant
+Command: "/home/leo/Desktop/FCFM/GPU/GPU_t1/build/test/GPU_t1Tests" "--gtest_filter=MatrixMath.MultConstant" "--gtest_also_run_disabled_tests"
+Directory: /home/leo/Desktop/FCFM/GPU/GPU_t1/build/test
+"MatrixMath.MultConstant" start time: Apr 23 19:49 -04
+Output:
+----------------------------------------------------------
+Running main() from /home/leo/Desktop/FCFM/GPU/GPU_t1/extern/googletest/googletest/src/gtest_main.cc
+[0;33mNote: Google Test filter = MatrixMath.MultConstant
+[m[0;32m[==========] [mRunning 1 test from 1 test suite.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from MatrixMath
+[0;32m[ RUN      ] [mMatrixMath.MultConstant
+[0;32m[       OK ] [mMatrixMath.MultConstant (0 ms)
+[0;32m[----------] [m1 test from MatrixMath (7 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test suite ran. (8 ms total)
+[0;32m[  PASSED  ] [m1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MatrixMath.MultConstant" end time: Apr 23 19:49 -04
+"MatrixMath.MultConstant" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/26 Testing: MatrixMath.SumV1
+20/26 Test: MatrixMath.SumV1
+Command: "/home/leo/Desktop/FCFM/GPU/GPU_t1/build/test/GPU_t1Tests" "--gtest_filter=MatrixMath.SumV1" "--gtest_also_run_disabled_tests"
+Directory: /home/leo/Desktop/FCFM/GPU/GPU_t1/build/test
+"MatrixMath.SumV1" start time: Apr 23 19:49 -04
+Output:
+----------------------------------------------------------
+Running main() from /home/leo/Desktop/FCFM/GPU/GPU_t1/extern/googletest/googletest/src/gtest_main.cc
+[0;33mNote: Google Test filter = MatrixMath.SumV1
+[m[0;32m[==========] [mRunning 1 test from 1 test suite.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from MatrixMath
+[0;32m[ RUN      ] [mMatrixMath.SumV1
+[0;32m[       OK ] [mMatrixMath.SumV1 (0 ms)
+[0;32m[----------] [m1 test from MatrixMath (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test suite ran. (0 ms total)
+[0;32m[  PASSED  ] [m1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"MatrixMath.SumV1" end time: Apr 23 19:49 -04
+"MatrixMath.SumV1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/26 Testing: MatrixMath.SumV2
+21/26 Test: MatrixMath.SumV2
+Command: "/home/leo/Desktop/FCFM/GPU/GPU_t1/build/test/GPU_t1Tests" "--gtest_filter=MatrixMath.SumV2" "--gtest_also_run_disabled_tests"
+Directory: /home/leo/Desktop/FCFM/GPU/GPU_t1/build/test
+"MatrixMath.SumV2" start time: Apr 23 19:49 -04
+Output:
+----------------------------------------------------------
+Running main() from /home/leo/Desktop/FCFM/GPU/GPU_t1/extern/googletest/googletest/src/gtest_main.cc
+[0;33mNote: Google Test filter = MatrixMath.SumV2
+[m[0;32m[==========] [mRunning 1 test from 1 test suite.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from MatrixMath
+[0;32m[ RUN      ] [mMatrixMath.SumV2
+[0;32m[       OK ] [mMatrixMath.SumV2 (0 ms)
+[0;32m[----------] [m1 test from MatrixMath (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test suite ran. (0 ms total)
+[0;32m[  PASSED  ] [m1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MatrixMath.SumV2" end time: Apr 23 19:49 -04
+"MatrixMath.SumV2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/26 Testing: MatrixMath.ExeptionSum
+22/26 Test: MatrixMath.ExeptionSum
+Command: "/home/leo/Desktop/FCFM/GPU/GPU_t1/build/test/GPU_t1Tests" "--gtest_filter=MatrixMath.ExeptionSum" "--gtest_also_run_disabled_tests"
+Directory: /home/leo/Desktop/FCFM/GPU/GPU_t1/build/test
+"MatrixMath.ExeptionSum" start time: Apr 23 19:49 -04
+Output:
+----------------------------------------------------------
+Running main() from /home/leo/Desktop/FCFM/GPU/GPU_t1/extern/googletest/googletest/src/gtest_main.cc
+[0;33mNote: Google Test filter = MatrixMath.ExeptionSum
+[m[0;32m[==========] [mRunning 1 test from 1 test suite.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from MatrixMath
+[0;32m[ RUN      ] [mMatrixMath.ExeptionSum
+[0;32m[       OK ] [mMatrixMath.ExeptionSum (0 ms)
+[0;32m[----------] [m1 test from MatrixMath (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test suite ran. (0 ms total)
+[0;32m[  PASSED  ] [m1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MatrixMath.ExeptionSum" end time: Apr 23 19:49 -04
+"MatrixMath.ExeptionSum" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/26 Testing: MatrixMath.SubV1
+23/26 Test: MatrixMath.SubV1
+Command: "/home/leo/Desktop/FCFM/GPU/GPU_t1/build/test/GPU_t1Tests" "--gtest_filter=MatrixMath.SubV1" "--gtest_also_run_disabled_tests"
+Directory: /home/leo/Desktop/FCFM/GPU/GPU_t1/build/test
+"MatrixMath.SubV1" start time: Apr 23 19:49 -04
+Output:
+----------------------------------------------------------
+Running main() from /home/leo/Desktop/FCFM/GPU/GPU_t1/extern/googletest/googletest/src/gtest_main.cc
+[0;33mNote: Google Test filter = MatrixMath.SubV1
+[m[0;32m[==========] [mRunning 1 test from 1 test suite.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from MatrixMath
+[0;32m[ RUN      ] [mMatrixMath.SubV1
+[0;32m[       OK ] [mMatrixMath.SubV1 (0 ms)
+[0;32m[----------] [m1 test from MatrixMath (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test suite ran. (0 ms total)
+[0;32m[  PASSED  ] [m1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MatrixMath.SubV1" end time: Apr 23 19:49 -04
+"MatrixMath.SubV1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/26 Testing: MatrixMath.SubV2
+24/26 Test: MatrixMath.SubV2
+Command: "/home/leo/Desktop/FCFM/GPU/GPU_t1/build/test/GPU_t1Tests" "--gtest_filter=MatrixMath.SubV2" "--gtest_also_run_disabled_tests"
+Directory: /home/leo/Desktop/FCFM/GPU/GPU_t1/build/test
+"MatrixMath.SubV2" start time: Apr 23 19:49 -04
+Output:
+----------------------------------------------------------
+Running main() from /home/leo/Desktop/FCFM/GPU/GPU_t1/extern/googletest/googletest/src/gtest_main.cc
+[0;33mNote: Google Test filter = MatrixMath.SubV2
+[m[0;32m[==========] [mRunning 1 test from 1 test suite.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from MatrixMath
+[0;32m[ RUN      ] [mMatrixMath.SubV2
+[0;32m[       OK ] [mMatrixMath.SubV2 (0 ms)
+[0;32m[----------] [m1 test from MatrixMath (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test suite ran. (0 ms total)
+[0;32m[  PASSED  ] [m1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MatrixMath.SubV2" end time: Apr 23 19:49 -04
+"MatrixMath.SubV2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/26 Testing: MatrixMath.ExeptionSub
+25/26 Test: MatrixMath.ExeptionSub
+Command: "/home/leo/Desktop/FCFM/GPU/GPU_t1/build/test/GPU_t1Tests" "--gtest_filter=MatrixMath.ExeptionSub" "--gtest_also_run_disabled_tests"
+Directory: /home/leo/Desktop/FCFM/GPU/GPU_t1/build/test
+"MatrixMath.ExeptionSub" start time: Apr 23 19:49 -04
+Output:
+----------------------------------------------------------
+Running main() from /home/leo/Desktop/FCFM/GPU/GPU_t1/extern/googletest/googletest/src/gtest_main.cc
+[0;33mNote: Google Test filter = MatrixMath.ExeptionSub
+[m[0;32m[==========] [mRunning 1 test from 1 test suite.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from MatrixMath
+[0;32m[ RUN      ] [mMatrixMath.ExeptionSub
+[0;32m[       OK ] [mMatrixMath.ExeptionSub (0 ms)
+[0;32m[----------] [m1 test from MatrixMath (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test suite ran. (0 ms total)
+[0;32m[  PASSED  ] [m1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MatrixMath.ExeptionSub" end time: Apr 23 19:49 -04
+"MatrixMath.ExeptionSub" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/26 Testing: MatrixMath.Transpose
+26/26 Test: MatrixMath.Transpose
+Command: "/home/leo/Desktop/FCFM/GPU/GPU_t1/build/test/GPU_t1Tests" "--gtest_filter=MatrixMath.Transpose" "--gtest_also_run_disabled_tests"
+Directory: /home/leo/Desktop/FCFM/GPU/GPU_t1/build/test
+"MatrixMath.Transpose" start time: Apr 23 19:49 -04
+Output:
+----------------------------------------------------------
+Running main() from /home/leo/Desktop/FCFM/GPU/GPU_t1/extern/googletest/googletest/src/gtest_main.cc
+[0;33mNote: Google Test filter = MatrixMath.Transpose
+[m[0;32m[==========] [mRunning 1 test from 1 test suite.
+[0;32m[----------] [mGlobal test environment set-up.
+[0;32m[----------] [m1 test from MatrixMath
+[0;32m[ RUN      ] [mMatrixMath.Transpose
+[0;32m[       OK ] [mMatrixMath.Transpose (0 ms)
+[0;32m[----------] [m1 test from MatrixMath (0 ms total)
+
+[0;32m[----------] [mGlobal test environment tear-down
+[0;32m[==========] [m1 test from 1 test suite ran. (0 ms total)
+[0;32m[  PASSED  ] [m1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MatrixMath.Transpose" end time: Apr 23 19:49 -04
+"MatrixMath.Transpose" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 23 19:49 -04
