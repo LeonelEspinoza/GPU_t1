@@ -19,6 +19,14 @@ Y para correr los tests:
 
     >make test
 
+Con la tarea compilada, se puede utilizar en un código cpp incluyendo el header de Matrix.h.
+
+>#include "Matrix.h" 
+
+Una vez echo esto, para compilar usando la librería sería necesario escribir lo siguiente en la terminal:
+
+    >g++ -std=c++23 <archivo>.cpp -L. -lGPU_t1
+
 Debido a las complicaciones que tuve al intentar hacer la tarea en windows, la termine haciendo en Debian12 con VS Code, no sé si se podrá compilar en windows de la misma forma.
 
 # Preguntas

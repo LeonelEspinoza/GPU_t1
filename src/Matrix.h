@@ -37,7 +37,7 @@ class Matrix {
         [[nodiscard]] double min() const; // Minimum value of the matrix
         
         // Utility functions
-        friend std::ostream &operator<(std::ostream &os, const Matrix &mat);   // Display matrix to console
+        friend std::ostream &operator<<(std::ostream &os, const Matrix &mat);   // Display matrix to console
         void save_to_file(const std::string &filename) const;                   // Save matrix to a file, any format is valid
         
         // Booleans
