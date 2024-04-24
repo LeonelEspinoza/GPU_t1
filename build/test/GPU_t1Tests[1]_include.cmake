@@ -1,5 +1,0 @@
-if(EXISTS "/home/leo/Desktop/FCFM/GPU/GPU_t1/build/test/GPU_t1Tests[1]_tests.cmake")
-  include("/home/leo/Desktop/FCFM/GPU/GPU_t1/build/test/GPU_t1Tests[1]_tests.cmake")
-else()
-  add_test(GPU_t1Tests_NOT_BUILT GPU_t1Tests_NOT_BUILT)
-endif()

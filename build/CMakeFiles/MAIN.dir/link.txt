@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/MAIN.dir/src/main.cpp.o -o MAIN  libGPU_t1.a 
