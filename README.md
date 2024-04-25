@@ -21,12 +21,26 @@ Y para correr los tests:
 
 Con la tarea compilada, se puede utilizar en un código cpp incluyendo el header de Matrix.h.
 
->#include "Matrix.h" 
+>#include "path/hacia/Matrix.h" 
 
 Una vez echo esto, para compilar usando la librería sería necesario escribir lo siguiente en la terminal:
 
-    >g++ -std=c++23 <archivo>.cpp -L. -lGPU_t1
+    >g++ -std=c++23 <archivo>.cpp -L. path/hacia/build/libGPU_t1.a
 
+Y el compilado resultante estará en el archivo a.out
+
+Por ejemplo, si ya compilé la librería, y en la misma carpeta donde está el makefile adjunto quiero compilar mi archivo.cpp tendría que:
+
+1. Incluir el header al archivo:
+    >#include "src/Matrix.h"
+
+2. Compilar con el comando:
+
+        >g++ -std=c++23 archivo.cpp -L. ./build/libGPU_t1.a
+
+Y con esto tendré el compilado en el archivo a.out
+
+## Nota al margen
 Debido a las complicaciones que tuve al intentar hacer la tarea en windows, la termine haciendo en Debian12 con VS Code, no sé si se podrá compilar en windows de la misma forma.
 
 # Preguntas
